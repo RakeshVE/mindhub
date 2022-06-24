@@ -1,0 +1,14 @@
+
+
+.bg-light1 {
+   
+    background-color: #62b7f3;
+}
+.navbar-light .navbar-nav .nav-link {
+    /* color: rgb(235 231 231 / 55%); */
+    color:white;
+}
+.header{
+
+    margin-bottom: 10rem!important;
+}
