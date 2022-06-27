@@ -2,3 +2,43 @@
 .bg-ground {
     background: aliceblue;
 }
+
+.box {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    height:75px;
+  }
+  .box1 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    height:75px;
+  }
+  .box2 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    height:75px;
+  }
+  .box3 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    height:75px;
+  }
+  .box4 {
+    width: 100px;
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 0;
+    height:75px;
+  }
+  .img-size{
+    width: 100px;
+    height:75px;
+  }

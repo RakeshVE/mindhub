@@ -6,9 +6,10 @@ const routes: Routes = [
   loadChildren: () => import('./modules/default/default.module').then(mod => mod.DefaultModule),
 },
 {
-  path: 'productdetail',
+  path: 'productdetail/:id',
   loadChildren: () => import('./modules/productdetails/productdetails.module').then(mod => mod.ProductdetailsModule),
 }
+
 ];
 
 @NgModule({

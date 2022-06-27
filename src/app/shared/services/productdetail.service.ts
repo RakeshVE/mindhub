@@ -14,7 +14,17 @@ export class ProductdetailService {
     this.baseAPIurl=environment.apiUrl
   }
 
-  GetBookdetail(data:any): Observable<Bookdetail[]> {
-    return this.httpClient.get<Bookdetail[]>(this.baseAPIurl + 'api/DropDown');
+  // GetBookdetail(data:any): Observable<Bookdetail[]> {
+  //   debugger
+  //   return this.httpClient.get<Bookdetail[]>(this.baseAPIurl + 'api/Books/GetBookById?id='+data);
+  //   debugger
+  // }
+  GetBookdetail(object:any) {
+    debugger
+    return this.httpClient.get(this.baseAPIurl + "api/Books/GetBookById?id="+object);
+  }
+  GetBookImage(object:any) {
+    debugger
+    return this.httpClient.get(this.baseAPIurl + "api/Books/GetBookImage?bookId="+object);
   }
 }
